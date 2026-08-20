@@ -224,7 +224,7 @@ function App() {
             </p>
             <div className="hero-actions">
               <a href="#contact" className="btn btn-primary">Get in Touch</a>
-              <a href="/resume/Bhavyadeep_Kaur_Resume.pdf" download className="btn btn-outline">
+              <a href={`${import.meta.env.BASE_URL}resume/Bhavyadeep_Kaur_Resume.pdf`} download className="btn btn-outline">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/>
                   <polyline points="7 10 12 15 17 10"/>
@@ -242,7 +242,7 @@ function App() {
           </div>
           <div className="hero-photo-wrap">
             <div className="hero-photo">
-              <img src="/bhavya-headshot.jpg" alt="Bhavyadeep Kaur" width="340" height="340" />
+              <img src={`${import.meta.env.BASE_URL}bhavya-headshot.jpg`} alt="Bhavyadeep Kaur" width="340" height="340" />
             </div>
           </div>
         </div>
